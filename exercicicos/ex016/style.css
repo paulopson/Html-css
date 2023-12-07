@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* { /*SELETOR UNIVERSAL*/
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+body {
+    background-image: linear-gradient(to right, #6AC4D9, #70D0E6);
+    }
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #2C5159;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    }
+
+h1 {
+    color: #5EADBF;
+    text-align: center;
+    text-shadow: 1px 1px 2px #2b4e55;
+}
+
+h2 {
+    color: #4B8B99;
+}
+
+
+
+p {
+    text-align: justify;
+
+}

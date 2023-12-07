@@ -1,0 +1,21 @@
+@charset "UTF-8"; /*Regra de acentuaçao, para nao dar erro em acentos e tals*/
+        body {
+            background-color: lightblue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+        }   
+        
+        h1 {
+            color:darkgoldenrod;
+            background-color:lightgrey;
+
+        }
+
+        h2 {
+            color:darkred;
+
+        }
+
+        p {
+            text-align:justify;
+        }

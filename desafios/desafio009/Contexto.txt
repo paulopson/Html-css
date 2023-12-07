@@ -1,0 +1,1 @@
+a principio tinha que criar um site que sugeria 4 videos de estudos. Cada video deveria ter uma capa e um link para acessar todas as aulas. Deveria navegar entre as paginas, sem preocupaçoes com estilos. Contanto que a navegação esteja perfeita

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML 5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse sites em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>  
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png"><!--coloque sempre 50px a mais para ter uma folga e nao aparecer a barra de rolamento, ela pode incomodar visitantes e vc pode perder pessoas-->
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reprodução de audio</h1>
+    <p>Vamos aprender a colocar audio</p>
+    <audio preload="metadata" controls  >
+    <source src="midia/audio1.mp3" type="audio/mp3">
+    <source src="midia/audio1.ogg" type="audio/ogg">
+    <source src="midia/audio1.wav" type="audio/wav">       
+    </audio>
+    <p>Problemas com o audio? <a href="midia/audio1.mp3">Clique aqui</a></p>  
+    <h1>Reprodução de videos</h1>
+
+</body>
+</html>

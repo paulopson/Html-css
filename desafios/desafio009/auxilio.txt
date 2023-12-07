@@ -1,0 +1,5 @@
+pghd = pagina de hadware
+pghtml = pagina html
+pgjs = pagina javascript
+pgpyt = pagina pyton
+

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+       body {
+          background-color: #9DA65D;
+          font-family: Arial, Helvetica, sans-serif;
+          margin: 10px;
+
+       }
+       
+       header {
+            background-color: #D4D9B4;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            border-radius: 0px 10px;
+
+        }
+
+        nav {
+            background-color: #9DA65D;
+            padding: 2px;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            box-shadow: 3px 4px 10px 0px rgba(0, 0, 0, 0.385);
+           
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: bolder;
+            margin-right: 7px;
+       
+        }
+
+        nav >a:hover {
+            text-decoration: underline;
+           
+        }
+
+        main {
+            background-color: #D4D9B4;
+            padding: 10px;
+            margin: 10px;
+            font-weight: bold;
+            border-radius: 10px 0px;
+            box-shadow: 3px 4px 10px 0px rgba(0, 0, 0, 0.374);
+        }
+        
+        article {
+            background-color: #b0b36c;
+            padding: 4px;           
+
+        }
+
+        article > aside {
+            text-align: center;
+            background-color: #a4a754;
+            font-weight: bolder;
+            
+            
+        }
+        
+        footer {
+            text-align: center;
+            font-weight: bolder;
+            background-color: #b2b662 ;
+            padding: 4px;;
+            margin: 0px;
+            border-radius: 10px;
+            
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header> <!-- Cria o cabeçalho do site -->
+        <h1>Testando Recurso de caixas e outros</h1>
+        <nav> <!-- Um menu, com links de navegaçao -->
+            <a href="https://www.google.com/search?q=caixa+de+papel%C3%A3o&tbm=isch&ved=2ahUKEwjj6pDCs--BAxU3tpUCHVmRDs0Q2-cCegQIABAA&oq=caixa+de+pa&gs_lcp=CgNpbWcQARgAMgoIABCKBRCxAxBDMggIABCABBCxAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBwgAEIoFEEMyBQgAEIAEMgUIABCABDIFCAAQgAQ6BAgjECdQtANYrQpgrhZoAHAAeACAAa4BiAHcBpIBAzAuN5gBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=0lEnZeO5Jrfs1sQP2aK66Aw&bih=657&biw=1360#imgrc=urgg8dpP0v2T-M" target="_blank">Link</a>
+            <a href="https://www.google.com/search?q=caixa+de+metal&tbm=isch&ved=2ahUKEwiA0dTEs--BAxUvpZUCHXEKB8wQ2-cCegQIABAA&oq=caixa+de+metal&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BAgjECc6BwgAEIoFEENQ6AhYxw1g-g5oAHAAeACAAY0BiAHvBZIBAzAuNpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=11EnZcCJOa_K1sQP8ZSc4Aw&bih=657&biw=1360#imgrc=JtwsOrw6mQYu2M" target="_blank">Link</a>
+            <a href="https://www.google.com/search?q=caixa+de+madeira&tbm=isch&ved=2ahUKEwiD7v3Xs--BAxWzkpUCHRbWAcoQ2-cCegQIABAA&oq=caixa+de+made&gs_lcp=CgNpbWcQARgAMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoECCMQJ1CkE1iCF2DkH2gAcAB4AIABgQGIAesEkgEDMC41mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=AFInZYPuG7Ol1sQPlqyH0Aw&bih=657&biw=1360#imgrc=dgcx3kHcg7SEsM&imgdii=RhGPVs6UaqBscM" target="_blank">Link</a>
+            <a href="https://www.google.com/search?q=caixa+de+vidro&tbm=isch&ved=2ahUKEwiJ46Pps--BAxUeupUCHWZXBSgQ2-cCegQIABAA&oq=caixa+de+vidro&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BAgjECdQzwdYwgxgiQ5oAHAAeACAAYcBiAH9BZIBAzAuNpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=JFInZYnBLJ701sQP5q6VwAI&bih=657&biw=1360#imgrc=TsybVNui0x3cJM" target="_blank">Link</a>
+        </nav>
+    </header>
+    <main> <!-- E usado para delimitar o conteudo principal do site -->
+        <section id="assuntos"> 
+
+        </section>
+        <section id="noticias"> <!-- E um agrupamento tematico de conteudos, tipicamente com um cabeçalho -->
+            <article> <!-- Cria um conteudo que pode ser lido de forma independende que dizem a respeito do mesmo assunto -->
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic voluptatem suscipit deleniti dolore deserunt mollitia! Incidunt assumenda molestiae magnam aperiam aliquam sed impedit repellendus libero fuga nesciunt expedita, odio culpa.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quia in sint eligendi a, iusto fuga nam unde repellendus provident, quod corporis molestias nostrum suscipit ad! Inventore exercitationem deserunt ut!
+                </p>
+                <aside> <!-- Cria um conteudo periferico e complementar -->
+                    <p>Artigo escrito por Paulo Sérgio</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer> <!-- Cria um Rodape -->
+        <p>Desenvolvido por ninguem</p>
+    </footer>
+</body>
+</html>
