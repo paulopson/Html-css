@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical de Caixas</title>
+</head>
+    <style>
+        #container {
+            position: relative; /*o de fora positon relative*/
+            background-color: slateblue;
+            height: 500px;
+            padding: 10px;
+        }
+
+
+
+        #conteudo {
+            position: absolute; /*o de dentro posicionamento absolute*/
+            background-color: darkorange;
+            height: 100px;
+            width: 200px;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate( -50%, -50%); /*vai mecher em 50% pra esquerda e 50% para cima*/
+        }
+    </style>
+
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+
+</body>
+</html>
