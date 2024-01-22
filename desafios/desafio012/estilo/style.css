@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+
+@import url('https://fonts.googleapis.com/css2? family= Abril+Fatface & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Abril Fatface', serif;
+    --fonte3: 'Sriracha', cursiva;
+}
+
 *{
 margin: 0px;
 padding: 0px;
@@ -7,6 +17,8 @@ padding: 0px;
 
 html,body {
     background-color: darkgray;
+    font-family: var(--fonte1);
+
 }
 
 header {
@@ -14,6 +26,8 @@ header {
     color: white;
     padding-top: 50px;
     text-align: center;
+    font-family: var(--fonte2);
+    font-size: 3vw; /*nao e a melho opçao mas da pra usar, a largura da fonte e e igual a 4% da largura da tela*/
 
 }
 
@@ -42,6 +56,8 @@ section {
     padding-bottom: 10vh;
     line-height: 3em; /*espaçamento entre as linhas*/
     padding-left: 20px;
+    font-family: var(--fonte3);
+    font-size: 2vw;
 }
 
 section.normal {
