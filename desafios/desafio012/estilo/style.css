@@ -2,12 +2,14 @@
 
 
 @import url('https://fonts.googleapis.com/css2? family= Abril+Fatface & display=swap');
-@import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Nova+Mono & display=swap');
+
 
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Abril Fatface', serif;
-    --fonte3: 'Sriracha', cursiva;
+    --fonte3: 'Nova Mono', monospace;
 }
 
 *{
@@ -18,6 +20,7 @@ padding: 0px;
 html,body {
     background-color: darkgray;
     font-family: var(--fonte1);
+   
 
 }
 
@@ -27,7 +30,7 @@ header {
     padding-top: 50px;
     text-align: center;
     font-family: var(--fonte2);
-    font-size: 3vw; /*nao e a melho opçao mas da pra usar, a largura da fonte e e igual a 4% da largura da tela*/
+    font-size: 2.1vw; /*nao e a melho opçao mas da pra usar, a largura da fonte e e igual a 4% da largura da tela*/
 
 }
 
@@ -54,10 +57,14 @@ header a:hover, footer a:hover {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 3em; /*espaçamento entre as linhas*/
+    line-height: 1.9em; /*espaçamento entre as linhas*/
     padding-left: 20px;
     font-family: var(--fonte3);
     font-size: 2vw;
+}
+
+section > p {
+    padding-bottom: 50px;
 }
 
 section.normal {
@@ -66,13 +73,28 @@ section.normal {
 }
 
 section.imagem {
-  
+    background-color: black;
     color: white;
+    box-shadow: inset 5px 5px 13px rgba(0, 0, 0, 0.655);
+    background-attachment: fixed;
 }
 
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.219);
+    background-color: rgba(0, 0, 0, 0.397);
     width: 400px;
+    text-shadow: 2px 2px 0px black;
+}
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-size:cover ;
 }
 
 footer {
