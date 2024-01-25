@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas em Html</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: monospace;
+            font-weight: bolder;
+            font-size: 1.4em;
+            
+        }
+
+        table {
+            width: 450px;
+            height: 450px;
+            border-collapse: collapse;
+        }
+
+        tr.normal {
+            background-color: gray;
+            
+            
+        }
+
+        td {
+            border: 3px solid black;
+            padding: 7px;
+            text-align: center; /*Alinha horizontalmente*/
+            vertical-align: middle; /*middle = meio, por padrao sempre sera meio*/ /*Alinhamento vertical*/
+
+        }
+
+        td.destaque {
+            background-color: red;
+        }
+    </style>
+    
+    <h1>Minha primeira tabela</h1>
+    <table>
+        <tr class="normal">
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td class="destaque">B2</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td class="destaque">A3</td>
+            <td>B3</td>
+            <td class="destaque">C3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td class="destaque">B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+
+</body>
+</html>
