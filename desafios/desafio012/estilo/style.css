@@ -68,20 +68,21 @@ section > p {
 }
 
 section.normal {
-    background-color: white;
+    background-color: rgb(249, 244, 244);
     color: black;
 }
 
 section.imagem {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     box-shadow: inset 5px 5px 13px rgba(0, 0, 0, 0.655);
     background-attachment: fixed;
 }
 
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.397);
-    width: 400px;
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.238);
+    padding: 10px;
     text-shadow: 2px 2px 0px black;
 }
 
