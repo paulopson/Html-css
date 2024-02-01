@@ -16,6 +16,18 @@
                 border-collapse: collapse;
             }
 
+            caption {
+                background-color: lightgray;
+                font-size: 1.5em;
+                font-weight: bold;
+                height: 30px;
+                padding: 8px;
+                
+                
+            }
+
+
+
             td, th {
                 border:  1px solid black;
                 border-collapse: collapse;
@@ -27,6 +39,7 @@
                 color: white;
             }
 
+            
             td.num {
                 text-align: right;
             }
@@ -42,13 +55,17 @@
                 TR, TD, TH
             TFOOT  rodape
                 TR, TD, TH
+
+                scope -> col= quando e coluna
+                scope -> row= quando e linha
     -->
 
     <table>
+        <caption>População de cada Estado</caption> <!--Tipo uma legenda para a tabela-->
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 90px;">População</th>
             </tr>
         </thead>
 
@@ -176,7 +193,7 @@
 
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th> 
                 <td class="num"><strong>203 062 512</strong> </td>
             </tr>
         </tfoot>
