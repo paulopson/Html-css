@@ -14,6 +14,7 @@
             table {
                 width: 600px;
                 border-collapse: collapse;
+                position: relative;
             }
 
             caption {
@@ -26,6 +27,18 @@
                 
             }
 
+            thead > tr > th {
+                position: sticky; /*colavel*/
+                top: -1px; /*ele vai colar na parte de cime, pode rolar a tabela que ele vai aparecer o menu ainda*/
+                background-color: gray;
+            }
+
+            tbody > tr:nth-child(odd){ /*todo linha impar vai ficar com cinza clara, pode ser par tambem.*/
+                /*odd = impar 
+                even = par*/
+                background-color: lightgray;
+            }
+            
 
 
             td, th {
