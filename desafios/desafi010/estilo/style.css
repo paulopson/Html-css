@@ -77,7 +77,7 @@ nav > a {
     border-radius: 6px;
     text-decoration: none; /**/
     font-weight: bold;
-    transition-duration: 1.0; /*quando o mouse passar por cima leva 1 segundo de transiçao*/
+    transition-duration: 1.0em; /*quando o mouse passar por cima leva 1 segundo de transiçao*/
 }
 
 nav > a:hover {
